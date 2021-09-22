@@ -1,0 +1,32 @@
+html {
+
+    font-size: 62.5%;
+}
+
+body {
+
+    font-size: 16px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+* {
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.padre {
+background: #fff;
+display: flex;
+flex-flow:column nowrap;
+}
+
+    .header {
+      background: #864000;
+      display: flex;
+      flex-flow:column nowrap;
+      border: 1rem solid #fff;
+    }
+      
+

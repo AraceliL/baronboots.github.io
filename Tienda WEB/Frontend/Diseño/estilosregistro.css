@@ -1,0 +1,82 @@
+html {
+
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    margin: 0;
+    background: url(../Imagenes/fondo-campo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+*{
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 1.5rem;
+
+}
+.formulario{
+    background: #fff;
+    margin-top: 15rem;
+    padding: 0.3rem;
+
+}
+h1{
+    text-align: center;
+    color:#1a2537;
+    font-size: 4rem;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 2rem;
+    width: 82%;
+    padding: 1rem;
+    border: none;
+
+}
+.input-contenedor{
+    margin-bottom: 1.5rem;
+    border: 1px solid #aaa;
+    
+}
+  .icon{
+min-width: 5rem;
+text-align: center;
+color:#999;
+
+  }
+  .boton{
+      border: none;
+      width: 100%;
+      color:#fff;
+      font-size: 2rem;
+      background: #1a2537;
+      padding: 15px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  .boton:hover{
+      background: cadetblue;
+  }
+  p{
+      text-align: center;
+  }
+  .link{
+      text-decoration: nonde;
+      color:#1a2537;
+      font-weight: 600;
+  }
+  .link:hover{
+    color: cadetblue;
+  }
+  @media(min-width:768px){
+      .formulario{
+          margin: auto;
+          width: 50rem;
+          margin-top: 15rem;
+          border-radius: 2%;
+      }
+
+  }

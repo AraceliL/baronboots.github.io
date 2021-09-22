@@ -1,0 +1,84 @@
+html {
+
+    font-size: 62.5%;
+}
+
+body {
+
+    font-size: 16px;
+   
+}
+h2{
+
+    text-transform: uppercase;
+}
+
+.padre{
+    border: 1rem solid #000;
+    display: flex;
+}
+  .aside{
+      margin: 30px;
+      background: #a2b29f;
+     flex: 1 1 auto;
+ }   
+    .aside img{
+        border-radius: 50%;
+    }
+    .idiomas{
+        margin:30px;
+
+    }
+    
+    .educacion{
+        margin:30px;
+    }
+    .habilidades{
+        margin:30px;
+    }
+     .habilidades_tec{
+        margin:30px;
+     }
+     
+
+     .contactos{
+        margin:30px;
+     }
+     .contactos ul{
+        list-style: none;
+     }
+     .contactos >li{
+        position: relative;
+        display: inline-block;
+    
+     }
+
+  .ma{
+      margin: 50px;
+      flex: 1 1 auto;
+  }
+    .nombre{
+        padding:50px;
+        align-content: center;
+        background:#eac8af;
+        border: 3px solid black;
+    }
+    .nombre h2{
+        font-family: 'Playfair Display', serif;
+    }
+
+     .acerca_mi > p{
+         background: #f3f4ed;
+     }
+
+    .referencias{
+        background: #f3f4ed;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .nombrerf{
+        flex: 1 1 100%;
+    }
+    .rf{
+        flex: 1 1 40%;
+    }

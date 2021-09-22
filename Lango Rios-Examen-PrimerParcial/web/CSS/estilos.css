@@ -1,0 +1,374 @@
+html {
+
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    margin: 0;
+    background-size: cover;
+    font-family: monospace;
+ 
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+p {
+    margin-bottom: 20px;
+}
+
+.padre {
+    background: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+    border-bottom: #000 solid 1px;
+
+}
+
+.menu_superior {
+
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    border-bottom: 0.1rem rgba(255, 255, 255, 0.5);
+    height: 6rem;
+    float: right;
+
+}
+
+.logo {
+    flex: 1 1 auto;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 5rem;
+    text-decoration: none;
+
+}
+
+.logo a:hover {
+    color: #000
+}
+
+.nav {
+    flex: auto;
+    text-align: right;
+    
+}
+
+.nav ul {
+
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+
+}
+
+.submenu {
+   
+    width: 130%;
+    visibility: hidden;
+    opacity: 0;
+    border: #000 solid 1px;
+    background: #fff;
+    position: absolute;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.nav a {
+    color: #000;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    text-decoration: none;
+    margin: 1rem auto;
+
+}
+
+.nav a:hover {
+    color: rgb(247, 12, 12);
+}
+
+.banner {
+    
+    margin-top: 10px;
+    width: 1365px;
+    height: 500px;
+    background-size: 100% 100%;
+    animation: banner 10s infinite;
+
+}
+
+@keyframes banner {
+
+    0%,
+    30% {
+        background-image: url(../imagenes/edificio1.jpg);
+
+    }
+
+    31%,
+    65% {
+        background-image: url(../imagenes/edificio2.jpg);
+
+    }
+
+    66%,
+    100% {
+        background-image: url(../imagenes/edificio3.jpg);
+
+    }
+
+}
+
+.section {
+    border: 1rem solid #fff;
+   display: flex;
+   }
+    .articulos{
+       
+        flex: 2 1 auto;
+        display:flex;
+        flex-flow: row wrap;
+    }
+    .destacados{
+       flex: 1 1 100%;
+    }
+     .destacados h1{
+         margin: 20px;
+          color: #000;
+
+     }
+       .article{
+           
+           margin:1rem 1rem 0 0px;
+           flex: 1 1 30%;
+
+       }
+        .article  h2{
+            color: #000;
+        }
+
+
+        .article img{
+            width: 100%;
+            align-items: center;
+        }
+
+        .descripcion{
+            display: flex;
+            font-size: 13px;
+            padding: 10px 0;
+            margin-top: -60px;
+            color: #fff;
+
+        }
+        .h {
+            flex:  1 1 70%;
+            
+         
+        }
+        .h h2{
+            color: #fff;
+        }
+       
+
+        .datos{
+            display: flex;
+            padding: 15px;
+
+        
+        }
+        .datos p{
+
+            font-family: Georgia;
+            flex:  1 1 70%;
+        }
+
+
+        .icono:hover{
+         color: rgb(194, 56, 56);
+        }
+        .agentes{
+       
+            flex: 2 1 auto;
+            display:flex;
+            flex-flow: row wrap;
+        }
+        .funciones{
+           flex: 1 1 100%;
+        }
+         .funciones h1{
+             margin: 20px;
+              color: #000;
+    
+         }
+           .article{
+               
+               margin:1rem 1rem 0 0px;
+               flex: 1 1 30%;
+    
+           }
+            .article  h2{
+                color: #000;
+            }
+            .boton{
+                background: rgba(64, 12, 124, 0.993);
+                border-radius: 10px;
+                color:#fff;
+                width: 80%;
+                border: 1px solid #000;
+                transition-duration:0.4s;
+                
+    
+            }
+             .boton:hover{
+               background: #a12925;
+               border: 0.1rem solid #000;
+             }
+    
+
+            .propie{
+       
+                flex: 2 1 auto;
+                display:flex;
+                flex-flow: row wrap;
+            }
+            .lugares{
+               flex: 1 1 100%;
+            }
+             .lugares h1{
+                 margin: 20px;
+                  color: #000;
+        
+             }
+.descubre{
+    background:  rgb(199, 196, 196);
+    
+}
+
+ .footer{
+     background: rgb(240, 235, 235);
+ }
+ .nav1 {
+    flex: auto;
+    border-bottom: 1px solid #ccc9c9;
+    height: 80px;
+}
+.nav1 a{
+    color:rgb(107, 107, 107);
+    text-transform: uppercase;
+    padding: 0 1rem;
+    text-decoration: none;
+    margin: 1rem auto;
+    flex: 1 1 auto;
+
+  }
+   .nav1 a:hover{
+      color:#000; 
+   } 
+.menu1{
+    text-align: center;
+   list-style: none;
+
+}
+.menu1 >li{
+    position: relative;
+    display: inline-block;
+}
+.menu1 >li>a{
+    display:block;
+    padding: 15px 20px;
+}
+.privacidad{
+    height: 20px;
+}
+.nav2 {
+    flex: auto;
+    border-bottom: 1px solid #ccc9c9;
+}
+.nav2 a{
+    color:rgb(107, 107, 107);
+    text-transform: uppercase;
+    padding: 0 1rem;
+    text-decoration: none;
+    margin: 1rem auto;
+    flex: 1 1 auto;
+    font-size: 9px;
+
+  }
+   .nav2 a:hover{
+      color:#000; 
+   } 
+.menu2{
+      text-align: center;
+      list-style: none;
+    
+}
+    .menu2 >li{
+        position: relative;
+        display: inline-block;
+
+    }
+      .menu2>li>a{
+        display:block;
+        padding: 0px 0px;
+
+     }
+     @media all and (max-width:1200px) {
+         .banner{
+             width: 100%;
+         }
+     }
+     @media all and (max-width:800px){
+         .header{
+            flex-direction: column;
+            height: auto;
+         }
+        .articulos{
+            flex-direction: column;
+        }
+        .menu{ 
+            flex-direction: column;
+            height: auto;
+        }
+        .menu1{
+            flex-direction: column;
+            height: auto;
+        }
+        .propie{
+            flex-direction: column;
+            height: auto;
+        }
+        .agentes{
+            flex-direction: column;
+            height: auto;
+        }
+        
+    
+     }
+
+
+
+ 

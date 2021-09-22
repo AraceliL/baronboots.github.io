@@ -1,0 +1,237 @@
+html {
+
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    margin: 0;
+    background-size: cover;
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+p {
+    margin-bottom: 20px;
+}
+
+.padre {
+    background: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+    border-bottom: #000 solid 1px;
+
+}
+
+.menu_superior {
+
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    border-bottom: 0.1rem rgba(255, 255, 255, 0.5);
+    height: 6rem;
+    float: right;
+
+}
+
+.logo {
+    flex: 1 1 auto;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 5rem;
+    text-decoration: none;
+
+}
+
+.logo a:hover {
+    color: #000
+}
+
+.nav {
+    flex: auto;
+    text-align: right;
+    
+}
+
+.nav ul {
+
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+
+}
+
+.submenu {
+   
+    width: 130%;
+    visibility: hidden;
+    opacity: 0;
+    border: #000 solid 1px;
+    background: #fff;
+    position: absolute;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.nav a {
+    color: #000;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    text-decoration: none;
+    margin: 1rem auto;
+
+}
+
+.nav a:hover {
+    color: rgb(247, 12, 12);
+}
+.l{
+    background-image: url(../imagenes/contactanos.jpg);
+    background-size: 100vw, 100vh;
+    color: #fff;
+}
+.formulario{
+
+    width: 450px;
+    margin: auto;
+    padding: 10px, 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+
+}
+h2{
+    color: black;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input,textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+
+}
+textarea{
+min-height: 100px;
+max-height: 200px;
+max-width: 100%;
+
+
+}
+#boton{
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+    
+}
+#boton:hover{
+cursor: pointer;
+
+}
+
+.descubre{
+    background:  rgb(199, 196, 196);
+    
+}
+
+ .footer{
+     background: rgb(240, 235, 235);
+ }
+ .nav1 {
+    flex: auto;
+    border-bottom: 1px solid #ccc9c9;
+    height: 80px;
+}
+.nav1 a{
+    color:rgb(107, 107, 107);
+    text-transform: uppercase;
+    padding: 0 1rem;
+    text-decoration: none;
+    margin: 1rem auto;
+    flex: 1 1 auto;
+
+  }
+   .nav1 a:hover{
+      color:#000; 
+   } 
+.menu1{
+    text-align: center;
+    list-style: none;
+
+}
+.menu1 >li{
+    position: relative;
+    display: inline-block;
+}
+.menu1 >li>a{
+    display:block;
+    padding: 15px 20px;
+}
+.privacidad{
+    height: 20px;
+}
+.nav2 {
+    flex: auto;
+    border-bottom: 1px solid #ccc9c9;
+}
+.nav2 a{
+    color:rgb(107, 107, 107);
+    text-transform: uppercase;
+    padding: 0 1rem;
+    text-decoration: none;
+    margin: 1rem auto;
+    flex: 1 1 auto;
+    font-size: 9px;
+
+  }
+   .nav2 a:hover{
+      color:#000; 
+   } 
+.menu2{
+      text-align: center;
+      list-style: none;
+    
+}
+    .menu2 >li{
+        position: relative;
+        display: inline-block;
+
+    }
+      .menu2>li>a{
+        display:block;
+        padding: 0px 0px;
+
+     }
+@media(max-width:480px)
+{
+    .formulario{
+        width: 100%;
+    }
+}

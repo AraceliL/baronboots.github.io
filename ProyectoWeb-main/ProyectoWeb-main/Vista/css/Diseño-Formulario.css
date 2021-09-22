@@ -1,0 +1,83 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.cuerpo {
+background: var(--white);
+}
+:root{
+    --rojo:#A0341D;
+    --naranja:#F5B041;
+    --azul:#5499C7;
+    --verdeagua:#39DCC3;
+    --azulcielo:#A9CCE3;  
+    --negro:#17202A;
+    --morado:#C8A2C8;
+    --gris:#9c9c9c;
+    --white:#ffff;
+
+}
+
+.diseño-registro {
+background: var(--morado);
+width: 25rem;
+padding: 3rem;
+margin:auto;
+margin-top: 10rem;
+border-radius: 3.12rem;
+box-shadow: 7px 13px 20px var(--morado);
+}
+
+.diseño-registro ::placeholder {
+color: var(--negro);
+}
+
+.diseño-registro h4 {
+font-size: 1.4rem;
+margin-bottom: 1.5rem;
+color: var(--white);
+}
+
+.diseño-c {
+width: 19rem;
+background: var(--white);
+padding: 0.5rem;
+border-radius: 0.5rem;
+margin-bottom: 1rem;
+border: 0.2rem solid var(--white);
+font-family: 'Arial';
+color: var(--negro);
+}
+
+.diseño-registro p {
+text-align: center;
+font-family: 'Arial';
+font-size: 0.85rem;
+color: var(--white);
+}
+
+.diseño-registro a {
+font-size: 0.85rem;
+color: var(--naranja);
+text-decoration: none;
+}
+
+.diseño-registro a:hover {
+    font-size: 0.85rem;
+    color: var(--naranja);
+    text-decoration: underline;
+}
+
+.diseño-registro .boton-r {
+width: 100%;
+background: var(--naranja);
+border: none;
+border-radius: 0.2rem;
+padding: 0.4rem;
+color: var(--negro);
+font-size: 1rem;
+margin-top: 1rem;
+}
+
